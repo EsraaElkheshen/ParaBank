@@ -1,6 +1,6 @@
-# Guru99 Demo Sites
+# PARA BANK Sites
 
-![Guru99 Demo Sites Logo](https://demo.guru99.com/logo.png)
+![PARA BANK Sites Logo](https://parabank.parasoft.com/parabank/images/logo.gif)
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@
 
 ## Introduction
 
-Guru99 Demo Sites is a Banking Web application that provides various banking services and features. This repository contains the source code for the Guru99 application.
+PARA BANK Sites is a Banking Web application that provides various banking services and features. This repository contains the source code for the PARA BANK application.
 
 ## Features
 
@@ -24,14 +24,14 @@ Guru99 Demo Sites is a Banking Web application that provides various banking ser
 
 ## Installation
 
-To set up the Guru99 application locally, follow these steps:
+To set up the PARA BANK application locally, follow these steps:
 
 ## Installation Steps for Selenium 4 (Java)
 
 1. **Clone Repository**:
-   - git clone <https://github.com/EsraaElkheshen/Guru99.git>
+   - git clone <https://github.com/EsraaElkheshen/ParaBank.git>
 2. **Navigate to Project Directory**:
-   - cd Guru99
+   - cd PARA BANK
 3. **Install Dependencies**:
    - Ensure Apache Maven is installed.
    - Add Selenium 4 dependency to pom.xml.
@@ -52,14 +52,14 @@ To set up the Guru99 application locally, follow these steps:
 *   npm start
 
 ## Usage
-* User Guide: Refer to the User Guide for detailed information on how to use the Guru99 Demo application.
+* User Guide: Refer to the User Guide for detailed information on how to use the PARA BANK application.
 
 ## Contributing
-* We welcome contributions from the community. To contribute to Guru99 , follow these steps:
+* We welcome contributions from the community. To contribute to PARA BANK , follow these steps:
 
 ## Fork the repository.
 * Create a new branch for your feature or bug fix.
 * Make your changes and submit a pull request.
 
 ## License
-* Guru99 Demo Sites is licensed under the MIT License.
+* PARA BANK Sites is licensed under the MIT License.

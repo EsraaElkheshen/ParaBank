@@ -30,7 +30,7 @@ public class P04_TransferFundsPage {
         } catch (TimeoutException exception) {
             fail("Element not found");
         }
-        System.out.println( driver.findElement(this.COMPLETED_MSG).getText().contains(msg));
+        System.out.println( driver.findElement(this.COMPLETED_MSG).getText());
         return driver.findElement(this.COMPLETED_MSG).getText().contains(msg);
     }
 
@@ -41,7 +41,7 @@ public class P04_TransferFundsPage {
     }
 
     public boolean verifyFundTransfer(String msg) {
-        System.out.println( driver.findElement(this.FUND_TRANSFER_MSG).getText().contains(msg));
+        System.out.println( driver.findElement(this.FUND_TRANSFER_MSG).getText());
         return driver.findElement(this.FUND_TRANSFER_MSG).getText().contains(msg);
     }
 

@@ -18,11 +18,17 @@ import static pages.PageBase.shortWait;
     private final By PASSWORD= By.xpath("//input[@name='password']");
     private final By LOGIN_BTN = By.xpath("//input[@value='Log In']");
     private final By MSG = By.xpath("//div[@id='showOverview']//h1");
+    private final By LOGIN_PAGE = By.xpath("//div[@id='leftPanel']//h2");
 
    public boolean verifyLogin(){
        System.out.println(driver.findElement(this.MSG).getText());
        return driver.findElement(this.MSG).getText().contains("Accounts Overview");
    }
+
+       public boolean verifyLoginPage(String value){
+           System.out.println(driver.findElement(this.LOGIN_PAGE).getText());
+           return driver.findElement(this.LOGIN_PAGE).getText().contains(value);
+       }
 
     public P02_LoginPage enterUserName(String userName){
         try

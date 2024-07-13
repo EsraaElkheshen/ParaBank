@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Parabank" class="navigator-link ">
-                    <span>E:\Shady-AutomationPracticse\ParaBank\TestCases.xml</span>
+                    <span>E:\Shady-AutomationPracticse\ParaBank\Sprint1_Chrome.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Parabank" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">11 methods,   11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,6 +118,16 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parabank" title="TestCases.TC03_LogOut" class="method navigator-link" hash-for-method="logOutPage">logOutPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parabank" title="TestCases.TC03_LogOut" class="method navigator-link" hash-for-method="logOutPage">logOutPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Parabank" title="TestCases.TC02_Login" class="method navigator-link" hash-for-method="loginPage">loginPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -129,6 +139,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Parabank" title="TestCases.TC05_TransferFunds" class="method navigator-link" hash-for-method="openTransferFunds">openTransferFunds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parabank" title="TestCases.TC01_Register" class="method navigator-link" hash-for-method="registerPage">registerPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -199,16 +214,16 @@
           <div class="suite-Parabank-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestCases.TC03_LogOut</span>
+              <span class="class-name">TestCases.TC01_Register</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logOutPage">
-                  </a> <!-- logOutPage -->
-                  <span class="method-name">logOutPage</span>
+                  <a name="registerPage">
+                  </a> <!-- registerPage -->
+                  <span class="method-name">registerPage</span>
                   <em>
-(logout Page)                  </em>
+(Register Page)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -259,10 +274,45 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Parabank-class-passed -->
+          <div class="suite-Parabank-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC03_LogOut</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutPage">
+                  </a> <!-- logOutPage -->
+                  <span class="method-name">logOutPage</span>
+                  <em>
+(logout Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutPage">
+                  </a> <!-- logOutPage -->
+                  <span class="method-name">logOutPage</span>
+                  <em>
+(logout Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutPage">
+                  </a> <!-- logOutPage -->
+                  <span class="method-name">logOutPage</span>
+                  <em>
+(logout Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parabank-class-passed -->
         </div> <!-- panel Parabank -->
         <div panel-name="test-xml-Parabank" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\Shady-AutomationPracticse\ParaBank\TestCases.xml</span>
+            <span class="header-content">E:\Shady-AutomationPracticse\ParaBank\Sprint1_Chrome.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -270,6 +320,20 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Parabank&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Register&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TC01_Register&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;registerPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- TestCases.TC01_Register --&gt;
+      &lt;class name=&quot;TestCases.TC03_LogOut&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;logOutPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- TestCases.TC03_LogOut --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Register --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Login&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestCases.TC02_Login&quot;&gt;
@@ -310,6 +374,11 @@
           &lt;include name=&quot;openTransferFunds&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- TestCases.TC05_TransferFunds --&gt;
+      &lt;class name=&quot;TestCases.TC03_LogOut&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;logOutPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- TestCases.TC03_LogOut --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login again  --&gt;
 &lt;/suite&gt; &lt;!-- Parabank --&gt;
@@ -323,10 +392,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
+                <span class="test-name">Register (2 classes)</span>
+              </li>
+              <li>
                 <span class="test-name">Login (3 classes)</span>
               </li>
               <li>
-                <span class="test-name">Login again  (3 classes)</span>
+                <span class="test-name">Login again  (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -352,44 +424,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginPage')
-data.setCell(0, 2, 'TestCases.TC02_Login')
-data.setCell(0, 3, 4306);
+data.setCell(0, 1, 'registerPage')
+data.setCell(0, 2, 'TestCases.TC01_Register')
+data.setCell(0, 3, 6209);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'createNewAccount')
 data.setCell(1, 2, 'TestCases.TC04_NewAccount')
-data.setCell(1, 3, 2527);
+data.setCell(1, 3, 2159);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'openTransferFunds')
-data.setCell(2, 2, 'TestCases.TC05_TransferFunds')
-data.setCell(2, 3, 2466);
+data.setCell(2, 1, 'loginPage')
+data.setCell(2, 2, 'TestCases.TC02_Login')
+data.setCell(2, 3, 2146);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginPage')
-data.setCell(3, 2, 'TestCases.TC02_Login')
-data.setCell(3, 3, 1825);
+data.setCell(3, 1, 'openTransferFunds')
+data.setCell(3, 2, 'TestCases.TC05_TransferFunds')
+data.setCell(3, 3, 2116);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'createNewAccount')
 data.setCell(4, 2, 'TestCases.TC04_NewAccount')
-data.setCell(4, 3, 1614);
+data.setCell(4, 3, 2092);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'logOutPage')
-data.setCell(5, 2, 'TestCases.TC03_LogOut')
-data.setCell(5, 3, 789);
+data.setCell(5, 1, 'loginPage')
+data.setCell(5, 2, 'TestCases.TC02_Login')
+data.setCell(5, 3, 1955);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'saveSecondAccId')
-data.setCell(6, 2, 'TestCases.TC04_NewAccount')
-data.setCell(6, 3, 296);
+data.setCell(6, 1, 'logOutPage')
+data.setCell(6, 2, 'TestCases.TC03_LogOut')
+data.setCell(6, 3, 868);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'saveFirstAccId')
-data.setCell(7, 2, 'TestCases.TC04_NewAccount')
-data.setCell(7, 3, 103);
+data.setCell(7, 1, 'logOutPage')
+data.setCell(7, 2, 'TestCases.TC03_LogOut')
+data.setCell(7, 3, 754);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'logOutPage')
+data.setCell(8, 2, 'TestCases.TC03_LogOut')
+data.setCell(8, 3, 741);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'saveSecondAccId')
+data.setCell(9, 2, 'TestCases.TC04_NewAccount')
+data.setCell(9, 3, 314);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'saveFirstAccId')
+data.setCell(10, 2, 'TestCases.TC04_NewAccount')
+data.setCell(10, 3, 205);
 window.suiteTableData['Parabank']= { tableData: data, tableDiv: 'times-div-Parabank'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Parabank">
               </div> <!-- times-div-Parabank -->
             </div> <!-- times-div -->
@@ -404,53 +488,69 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Parabank" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">18 ignored methods</span>
+            <span class="header-content">26 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">TestCases.TC05_TransferFunds</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">defineSuiteElements</span>
+                <br/>
                 <span class="ignored-method-name">setupDriver</span>
                 <br/>
                 <span class="ignored-method-name">quit</span>
                 <br/>
                 <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">defineSuiteElements</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">TestCases.TC03_LogOut</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">defineSuiteElements</span>
-                <br/>
-                <span class="ignored-method-name">setupDriver</span>
-                <br/>
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">quit</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">TestCases.TC04_NewAccount</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
+                <span class="ignored-method-name">setupDriver</span>
                 <br/>
                 <span class="ignored-method-name">defineSuiteElements</span>
                 <br/>
+                <span class="ignored-method-name">setupDriver</span>
+                <br/>
                 <span class="ignored-method-name">saveFirstAccId</span>
+                <br/>
+                <span class="ignored-method-name">defineSuiteElements</span>
                 <br/>
                 <span class="ignored-method-name">saveSecondAccId</span>
                 <br/>
                 <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TestCases.TC03_LogOut</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setupDriver</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">defineSuiteElements</span>
                 <br/>
                 <span class="ignored-method-name">defineSuiteElements</span>
                 <br/>
                 <span class="ignored-method-name">setupDriver</span>
                 <br/>
                 <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">defineSuiteElements</span>
                 <br/>
                 <span class="ignored-method-name">setupDriver</span>
                 <br/>
@@ -471,107 +571,154 @@ return data;
                 <span class="method-name">defineSuiteElements</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">setupDriver()</span>
-                <span class="method-start">892 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">loginPage</span>
-                <span class="method-start">7997 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=loginPage status=SUCCESS method=TC02_Login.loginPage()[pri:1, instance:TestCases.TC...)</span>
-                <span class="method-start">10149 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.TC04_NewAccount</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestCases.TC01_Register</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupDriver()</span>
+                <span class="method-start">1736 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">createNewAccount(CHECKING)</span>
-                <span class="method-start">10197 ms</span>
+                <span class="method-name">registerPage</span>
+                <span class="method-start">8152 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=createNewAccount status=SUCCESS method=TC04_NewAccount.createNewAccount(java.lang.S...)</span>
-                <span class="method-start">11816 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">saveFirstAccId</span>
-                <span class="method-start">11823 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=saveFirstAccId status=SUCCESS method=TC04_NewAccount.saveFirstAccId()[pri:2, instan...)</span>
-                <span class="method-start">11929 ms</span>
+                <span class="method-name">getResult([TestResult name=registerPage status=SUCCESS method=TC01_Register.registerPage()[pri:1, instance:Tes...)</span>
+                <span class="method-start">14677 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC03_LogOut</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">logOutPage</span>
-                <span class="method-start">11939 ms</span>
+                <span class="method-start">14762 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=logOutPage status=SUCCESS method=TC03_LogOut.logOutPage()[pri:1, instance:TestCases...)</span>
-                <span class="method-start">12731 ms</span>
+                <span class="method-start">15510 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC01_Register</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">15518 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC02_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupDriver()</span>
+                <span class="method-start">16262 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginPage</span>
+                <span class="method-start">21857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=loginPage status=SUCCESS method=TC02_Login.loginPage()[pri:1, instance:TestCases.TC...)</span>
+                <span class="method-start">24005 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC04_NewAccount</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createNewAccount(CHECKING)</span>
+                <span class="method-start">24014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=createNewAccount status=SUCCESS method=TC04_NewAccount.createNewAccount(java.lang.S...)</span>
+                <span class="method-start">26109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">saveFirstAccId</span>
+                <span class="method-start">26113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=saveFirstAccId status=SUCCESS method=TC04_NewAccount.saveFirstAccId()[pri:2, instan...)</span>
+                <span class="method-start">26396 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC03_LogOut</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logOutPage</span>
+                <span class="method-start">26406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=logOutPage status=SUCCESS method=TC03_LogOut.logOutPage()[pri:1, instance:TestCases...)</span>
+                <span class="method-start">27281 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC02_Login</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">quit</span>
-                <span class="method-start">12740 ms</span>
+                <span class="method-start">27284 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setupDriver()</span>
-                <span class="method-start">13800 ms</span>
+                <span class="method-start">28289 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginPage</span>
-                <span class="method-start">16670 ms</span>
+                <span class="method-start">32965 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=loginPage status=SUCCESS method=TC02_Login.loginPage()[pri:1, instance:TestCases.TC...)</span>
-                <span class="method-start">20979 ms</span>
+                <span class="method-start">34934 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC04_NewAccount</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createNewAccount(SAVINGS)</span>
-                <span class="method-start">20983 ms</span>
+                <span class="method-start">34949 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=createNewAccount status=SUCCESS method=TC04_NewAccount.createNewAccount(java.lang.S...)</span>
-                <span class="method-start">23517 ms</span>
+                <span class="method-start">37114 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">saveSecondAccId</span>
-                <span class="method-start">23542 ms</span>
+                <span class="method-start">37118 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=saveSecondAccId status=SUCCESS method=TC04_NewAccount.saveSecondAccId()[pri:3, inst...)</span>
-                <span class="method-start">23842 ms</span>
+                <span class="method-start">37434 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC05_TransferFunds</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openTransferFunds</span>
-                <span class="method-start">23851 ms</span>
+                <span class="method-start">37442 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=openTransferFunds status=SUCCESS method=TC05_TransferFunds.openTransferFunds()[pri:...)</span>
-                <span class="method-start">26321 ms</span>
+                <span class="method-start">39560 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC03_LogOut</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logOutPage</span>
+                <span class="method-start">39567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=logOutPage status=SUCCESS method=TC03_LogOut.logOutPage()[pri:1, instance:TestCases...)</span>
+                <span class="method-start">40326 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC02_Login</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">quit</span>
-                <span class="method-start">26324 ms</span>
+                <span class="method-start">40331 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27500 ms</span>
+                <span class="method-start">41853 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

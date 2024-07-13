@@ -37,12 +37,12 @@ public class P03_NewAccountPage {
     }
 
     public void getAccountId() {
-        System.out.println(driver.findElement(this.ACCOUNT_ID_TEXT).getText());
+        System.out.println("account Id : " +driver.findElement(this.ACCOUNT_ID_TEXT).getText());
         accountId = driver.findElement(this.ACCOUNT_ID_TEXT).getText();
     }
 
     public void getSecondAccountId() {
-        System.out.println(driver.findElement(this.ACCOUNT_ID_TEXT).getText());
+        System.out.println("secondAccount Id : " +driver.findElement(this.ACCOUNT_ID_TEXT).getText());
         secondAccountId = driver.findElement(this.ACCOUNT_ID_TEXT).getText();
     }
 

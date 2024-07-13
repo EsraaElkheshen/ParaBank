@@ -1,112 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Guru99">
+<suite name="Parabank">
     <parameter name="browser" value=""/>
 
-    <test name="TC01 Open Link And Generate Userid And Password">
-        <classes>
-            <class name="TestCases.TC01_Credential">
-                <methods>
-                    <include name="openLink"/>
-                    <include name="generateCredential"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-
-    <test name=" TC01 Verify Login Page Opened Successfully">
+    <test name="Register">
         <classes>
             <class name="TestCases.TC01_Register">
                 <methods>
-                    <include name="loginWithValidCredential"/>
+                    <include name="registerPage"/>
                 </methods>
             </class>
 
-            <class name="TestCases.TC03_CreateNewCustomer">
+            <class name="TestCases.TC03_LogOut">
                 <methods>
-                    <include name="createNewCustomer"/>
+                    <include name="logOutPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Login">
+        <classes>
+            <class name="TestCases.TC02_Login">
+                <methods>
+                    <include name="loginPage"/>
                 </methods>
             </class>
 
-            <class name="TestCases.TC04_EditCustomer">
+            <class name="TestCases.TC04_NewAccount">
+                <parameter name="accountType" value="CHECKING"/>
                 <methods>
-                    <include name="editCustomer"/>
+                    <include name="createNewAccount"/>
+                    <include name="saveFirstAccId"/>
                 </methods>
             </class>
 
-            <class name="TestCases.TC05_DeleteCustomer">
+            <class name="TestCases.TC03_LogOut">
                 <methods>
-                    <include name="deleteCustomer"/>
+                    <include name="logOutPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Login again ">
+        <classes>
+            <class name="TestCases.TC02_Login">
+                <methods>
+                    <include name="loginPage"/>
                 </methods>
             </class>
 
-            <class name="TestCases.TC06_NewAccount">
+            <class name="TestCases.TC04_NewAccount">
+                <parameter name="accountType" value="SAVINGS"/>
                 <methods>
-                    <include name="newAccount"/>
+                    <include name="createNewAccount"/>
+                    <include name="saveSecondAccId"/>
                 </methods>
             </class>
 
-            <class name="TestCases.TC07_EditAccount">
+            <class name="TestCases.TC05_TransferFunds">
                 <methods>
-                    <include name="EditAccount"/>
+                    <include name="openTransferFunds"/>
                 </methods>
             </class>
 
-            <class name="TestCases.TC09_Deposit">
+            <class name="TestCases.TC03_LogOut">
                 <methods>
-                    <include name="Deposit"/>
-                </methods>
-            </class>
-
-            <class name="TestCases.TC10_WithDrawl">
-                <methods>
-                    <include name="Withdrawal"/>
-                </methods>
-            </class>
-
-            <class name="TestCases.TC11_FundTransfer">
-                <methods>
-                    <include name="fundTransfer"/>
-                </methods>
-            </class>
-
-
-            <class name="TestCases.TC12_ChangePassword">
-                <methods>
-                    <include name="changePassword"/>
-                </methods>
-            </class>
-
-            <class name="TestCases.TC13_BalanceEnquiry">
-                <methods>
-                    <include name="balanceEnquiry"/>
-                </methods>
-            </class>
-
-            <class name="TestCases.TC14_MiniStatement">
-                <methods>
-                    <include name="miniStatement"/>
-                </methods>
-            </class>
-
-            <class name="TestCases.TC15_CustomizedStatement">
-                <methods>
-                    <include name="customizedStatement"/>
-                </methods>
-            </class>
-
-            <class name="TestCases.TC03_CreateNewCustomer">
-                <methods>
-                    <include name="returnHomePage"/>
-                </methods>
-            </class>
-
-            <class name="TestCases.TC16_LogOut">
-                <methods>
-                    <include name="logOut"/>
+                    <include name="logOutPage"/>
                 </methods>
             </class>
 
         </classes>
     </test>
+
+
+
 </suite>

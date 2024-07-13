@@ -28,8 +28,9 @@ public class TC02_Login extends TestBase {
     @Description("Login Name")
     @Test(priority = 1, description = "login Page")
     public void loginPage() {
-    new P02_LoginPage(driver).enterUserName(userName).enterPassword(password).clickOnLoginButton();
-    System.out.println(userName);
+    new P02_LoginPage(driver).verifyLoginPage("Customer Login");
+        new P02_LoginPage(driver).enterUserName(userName).enterPassword(password).clickOnLoginButton();
+        System.out.println(userName);
         System.out.println(password);
     Assert.assertTrue(new P02_LoginPage(driver).verifyLogin());
     }}

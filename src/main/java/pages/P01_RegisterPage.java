@@ -31,12 +31,19 @@ public class P01_RegisterPage {
     private final By REGISTER_BTN = By.xpath("//input[@value='Register']");
     private final By USER_MSG= By.xpath("//div[@id='rightPanel']//h1");
     private final By MSG= By.xpath("//div[@id='rightPanel']//P");
+    private final By REGISTER_PAGE= By.xpath("//div[@id='rightPanel']//h1");
 
     public String verifyUserRegisterMsg(){
-        System.out.println(driver.findElement(this.USER_MSG).getText());
+        System.out.println("userName : "+driver.findElement(this.USER_MSG).getText());
         return driver.findElement(this.USER_MSG).getText().replace("Welcome ", "");
         //     String[] parts = welcomeText.split("Welcome ");
         //        String username = parts[1];
+
+    }
+
+    public boolean verifyRegisterPage(String value){
+        System.out.println(driver.findElement(this.REGISTER_PAGE).getText());
+        return driver.findElement(this.REGISTER_PAGE).getText().contains(value);
 
     }
     public boolean verifyRegisterMsg(String msg){

@@ -30,6 +30,7 @@ public class TC01_Register extends TestBase {
     @Test(priority = 1, description = "Register Page")
     public void registerPage() {
         new P01_RegisterPage(driver).openRegisterPage();
+        Assert.assertTrue(new P01_RegisterPage(driver).verifyRegisterPage("Signing up is easy!"));
         new P01_RegisterPage(driver).enterFirstName(firstName).enterLastName(lastName).enterAddress(address).
                 enterCity(city).
                 enterState(state).enterZipCode(zipCode).enterPhone(phone).enterSsn(SSN).enterUserName(userName).
