@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-13T03:03:37 EET" name="Parabank" finished-at="2024-07-13T03:04:04 EET" duration-ms="26562">
+    <groups>
+    </groups>
+    <test started-at="2024-07-13T03:03:37 EET" name="Login" finished-at="2024-07-13T03:03:50 EET" duration-ms="12624">
+      <class name="TestCases.TC02_Login">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:TestCases.TC02_Login@a60c6dd0]" started-at="2024-07-13T03:03:38 EET" name="setupDriver" finished-at="2024-07-13T03:03:45 EET" duration-ms="7018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginPage()[pri:1, instance:TestCases.TC02_Login@a60c6dd0]" started-at="2024-07-13T03:03:45 EET" name="loginPage" description="login Page" finished-at="2024-07-13T03:03:47 EET" duration-ms="1825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC02_Login@a60c6dd0]" started-at="2024-07-13T03:03:47 EET" name="getResult" finished-at="2024-07-13T03:03:47 EET" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=TC02_Login.loginPage()[pri:1, instance:TestCases.TC02_Login@a60c6dd0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.TC02_Login@a60c6dd0]" started-at="2024-07-13T03:03:50 EET" name="quit" finished-at="2024-07-13T03:03:50 EET" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestCases.TC02_Login -->
+      <class name="TestCases.TC03_LogOut">
+        <test-method signature="logOutPage()[pri:1, instance:TestCases.TC03_LogOut@a073d5eb]" started-at="2024-07-13T03:03:49 EET" name="logOutPage" description="logout Page" finished-at="2024-07-13T03:03:50 EET" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC03_LogOut@a073d5eb]" started-at="2024-07-13T03:03:50 EET" name="getResult" finished-at="2024-07-13T03:03:50 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOutPage status=SUCCESS method=TC03_LogOut.logOutPage()[pri:1, instance:TestCases.TC03_LogOut@a073d5eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- TestCases.TC03_LogOut -->
+      <class name="TestCases.TC04_NewAccount">
+        <test-method signature="createNewAccount(java.lang.String)[pri:1, instance:TestCases.TC04_NewAccount@a8f1b9fb]" started-at="2024-07-13T03:03:47 EET" name="createNewAccount" description="New Account Page" finished-at="2024-07-13T03:03:49 EET" duration-ms="1614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHECKING]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC04_NewAccount@a8f1b9fb]" started-at="2024-07-13T03:03:49 EET" name="getResult" finished-at="2024-07-13T03:03:49 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewAccount status=SUCCESS method=TC04_NewAccount.createNewAccount(java.lang.String)[pri:1, instance:TestCases.TC04_NewAccount@a8f1b9fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="saveFirstAccId()[pri:2, instance:TestCases.TC04_NewAccount@a8f1b9fb]" started-at="2024-07-13T03:03:49 EET" name="saveFirstAccId" description="save first account id" finished-at="2024-07-13T03:03:49 EET" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFirstAccId -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC04_NewAccount@a8f1b9fb]" started-at="2024-07-13T03:03:49 EET" name="getResult" finished-at="2024-07-13T03:03:49 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saveFirstAccId status=SUCCESS method=TC04_NewAccount.saveFirstAccId()[pri:2, instance:TestCases.TC04_NewAccount@a8f1b9fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- TestCases.TC04_NewAccount -->
+    </test> <!-- Login -->
+    <test started-at="2024-07-13T03:03:51 EET" name="Login again " finished-at="2024-07-13T03:04:04 EET" duration-ms="13414">
+      <class name="TestCases.TC05_TransferFunds">
+        <test-method signature="openTransferFunds()[pri:1, instance:TestCases.TC05_TransferFunds@6ff67503]" started-at="2024-07-13T03:04:01 EET" name="openTransferFunds" description="Transfer Funds" finished-at="2024-07-13T03:04:03 EET" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTransferFunds -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC05_TransferFunds@6ff67503]" started-at="2024-07-13T03:04:03 EET" name="getResult" finished-at="2024-07-13T03:04:03 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openTransferFunds status=SUCCESS method=TC05_TransferFunds.openTransferFunds()[pri:1, instance:TestCases.TC05_TransferFunds@6ff67503] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- TestCases.TC05_TransferFunds -->
+      <class name="TestCases.TC02_Login">
+        <test-method is-config="true" signature="defineSuiteElements()[pri:0, instance:TestCases.TC02_Login@2ec1fd08]" started-at="2024-07-13T03:03:37 EET" name="defineSuiteElements" finished-at="2024-07-13T03:03:37 EET" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuiteElements -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:TestCases.TC02_Login@2ec1fd08]" started-at="2024-07-13T03:03:51 EET" name="setupDriver" finished-at="2024-07-13T03:03:54 EET" duration-ms="2867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginPage()[pri:1, instance:TestCases.TC02_Login@2ec1fd08]" started-at="2024-07-13T03:03:54 EET" name="loginPage" description="login Page" finished-at="2024-07-13T03:03:58 EET" duration-ms="4306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC02_Login@2ec1fd08]" started-at="2024-07-13T03:03:58 EET" name="getResult" finished-at="2024-07-13T03:03:58 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=TC02_Login.loginPage()[pri:1, instance:TestCases.TC02_Login@2ec1fd08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.TC02_Login@2ec1fd08]" started-at="2024-07-13T03:04:03 EET" name="quit" finished-at="2024-07-13T03:04:04 EET" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC02_Login@2ec1fd08]" started-at="2024-07-13T03:04:04 EET" name="tearDown" finished-at="2024-07-13T03:04:08 EET" duration-ms="3513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC02_Login -->
+      <class name="TestCases.TC04_NewAccount">
+        <test-method signature="createNewAccount(java.lang.String)[pri:1, instance:TestCases.TC04_NewAccount@19a25036]" started-at="2024-07-13T03:03:58 EET" name="createNewAccount" description="New Account Page" finished-at="2024-07-13T03:04:00 EET" duration-ms="2527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SAVINGS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC04_NewAccount@19a25036]" started-at="2024-07-13T03:04:00 EET" name="getResult" finished-at="2024-07-13T03:04:00 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewAccount status=SUCCESS method=TC04_NewAccount.createNewAccount(java.lang.String)[pri:1, instance:TestCases.TC04_NewAccount@19a25036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="saveSecondAccId()[pri:3, instance:TestCases.TC04_NewAccount@19a25036]" started-at="2024-07-13T03:04:00 EET" name="saveSecondAccId" description="save second account id" finished-at="2024-07-13T03:04:01 EET" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveSecondAccId -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC04_NewAccount@19a25036]" started-at="2024-07-13T03:04:01 EET" name="getResult" finished-at="2024-07-13T03:04:01 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saveSecondAccId status=SUCCESS method=TC04_NewAccount.saveSecondAccId()[pri:3, instance:TestCases.TC04_NewAccount@19a25036] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- TestCases.TC04_NewAccount -->
+    </test> <!-- Login again  -->
+  </suite> <!-- Parabank -->
+</testng-results>

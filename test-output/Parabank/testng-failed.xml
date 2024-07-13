@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parabank]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value=""/>
+  <test thread-count="5" name="Login again (failed)">
+    <classes>
+      <class name="TestCases.TC05_TransferFunds">
+        <methods>
+          <include name="openTransferFunds"/>
+          <include name="quit"/>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="getResult"/>
+          <include name="defineSuiteElements"/>
+        </methods>
+      </class> <!-- TestCases.TC05_TransferFunds -->
+    </classes>
+  </test> <!-- Login again (failed) -->
+</suite> <!-- Failed suite [Parabank] -->
